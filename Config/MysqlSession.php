@@ -9,9 +9,9 @@ class MysqlSession{
 	
 	public function setTestSession(){
 		$this->HOST="localhost";
-		$this->USER="toweb";
-		$this->PASSWORD="3141516";
-		$this->DATABASE = "jphp";
+		$this->USER="root";
+		$this->PASSWORD="password";
+		$this->DATABASE = "database";
 	}
 	public function getTestSession(){
 		$array = array($this->HOST,$this->USER,$this->PASSWORD,$this->DATABASE);
@@ -20,9 +20,9 @@ class MysqlSession{
 	
 	public function setProductiveSession(){
 		$this->HOST="localhost";
-		$this->USER="grupolu1_luxury";
-		$this->PASSWORD="n0ru3g4.";
-		$this->DATABASE = "grupolu1_luxury";
+		$this->USER="root";
+		$this->PASSWORD="password";
+		$this->DATABASE = "database";
 	}
 	public function getProductiveSession(){
 		$array = array($this->HOST,$this->USER,$this->PASSWORD,$this->DATABASE);
